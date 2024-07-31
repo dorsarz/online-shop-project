@@ -3,26 +3,44 @@ header nav{
     display: flex;
     justify-content: space-between;
     font-size: 1em;
-    color: #444;
+   
 }
 header nav .right{
-    margin:3px 2px;
+    display: flex;
+    justify-content: space-between;
+    margin:2px;
 }
 header nav .right a{
-    padding:6px 10px;
-    font-size: 1.1em;
+    align-items: center;
+    padding:5px 10px;
+    font-size: 1.2em;
+    border-radius: 25px;
+    margin-right: 3px;
+    background-color: #ffcccc;
+    color: white;
+    font-weight: bold;
+    border: white solid 1px;
+
 }
 header nav .right a:hover{
-   font-size: 1.5em;
+    box-shadow: 0px 2px 8px 0px rgb(0,0,0,0.5) ;
+
 }
 header nav .left{
     margin: 3px 5px;
     border: solid 2px;
     padding: 2px 4px;
-    border-radius: 5px;
+    border-radius: 10px;
+    background-color: #ffcccc;
+    color: white;
+}
+header nav .left:hover{
+    box-shadow: 0px 2px 8px 0px rgb(0,0,0,0.5) ;
 }
 header nav .left a{
-    font-size: 0.9em;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -37,7 +55,7 @@ header nav .left a{
 
 }
 .slider .slides .item img{
-    width: 100%;
+   width:100%;
 
 }
 .slider .slides .active{
@@ -50,12 +68,110 @@ header nav .left a{
     z-index: 1;
 }
 .slider .buttoms i{
-    color:white;
+    color:rgb(255, 255, 255);
     margin-right: 5px;
 }
 .slider .buttoms i:hover{
-    color: rgba(255, 255, 255, 0.4);
+    color: #ffcccc ;
     cursor: pointer;
 }
 
+
+/* product section */
+.product-sec{
+    padding: 20px 10px;
+
+}
+.product-sec .shopping-card{
+    text-align: center;
+    border: #ffcccc solid 2px;
+    border-radius: 5%;
+
+}
+.product-sec .shopping-card:hover{
+    box-shadow: 0px 2px 8px 0px rgb(0,0,0,0.5) ;
+    border-radius: 5%;
+
+}
+.shopping-card .img-sec{
+    position: relative;
+
+}
+.shopping-card .img-sec img{
+    margin-top: 2px;
+    width: 80%;
+
+}
+.shopping-card .img-sec .hot-offer{
+    margin-top: 4px;
+    position: absolute;
+    right:53px;
+    background-color:#e74c3c ;
+    color: white;
+    border-radius: 10%;
+    padding:1px 2px;
+
+}
+.shopping-card .img-sec .stars{
+    position: absolute;
+    left: 53px;
+    top: 4px;
+    font-size: 1.2em;
+
+}
+.shopping-card .img-sec .stars i{
+    color: #fbc531;
+
+}
+.shopping-card .title{ 
+    color: #444;
+
+}
+.shopping-card .buttoms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+
+}
+.shopping-card .buttoms .right .price{
+    font-weight: bold;
+    color: #444;
+
+}
+.shopping-card .buttoms .left {
+    display: flex;
+   
+
+}
+.shopping-card .buttoms .left .extend-btn{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 1.2em;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #ffcccc;
+    border-radius: 25px;
+    padding:3px 8px;
+    width: 35px;
+    transition: 0.6s;
+  
+}
+.shopping-card .buttoms .left .extend-btn:hover{
+    width: 100px;
+
+}
+.shopping-card .buttoms .left .extend-btn .b-text{
+    display: none;
+}
+.shopping-card .buttoms .left .extend-btn:hover .b-text{
+    display: block;
+
+} 
+
+.shopping-card .buttoms .left .extend-btn a{
+    color: #444;
+    color: white;
+}
 
