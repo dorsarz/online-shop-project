@@ -181,7 +181,6 @@ header nav .left a{
     padding: 10px;
     font-size: 1em;
     margin: 10px;
-   
 
 }
 .supper-offer-sec .supper-offer-box{
@@ -208,9 +207,6 @@ header nav .left a{
   
 
 }
-.supper-offer-box .body{
-
-}
 .supper-offer-box .body .img-container{ 
     right: 10px;
 
@@ -226,15 +222,11 @@ header nav .left a{
     margin: 40px;
 
 }
-
 .supper-offer-box .body .specification .price-row{
    display: flex;
    justify-content: space-between;
    font-size: 1.5em;
    color: #444;
-}
-.price-row .sale{
-
 }
 .price-row .price{
     right: 40px;
@@ -256,9 +248,7 @@ header nav .left a{
     left: 28%;
     color: #5f5f5f;
 }
-.counter-down span{
 
-}
 .supper-offer-box .body .specification .remindering-time{
     position: absolute;
     top: 67%;
@@ -266,7 +256,6 @@ header nav .left a{
     color: #8c8c8c;
 
 }
-
 .supper-offer-sec .baner{
     @media (max-width:1195px) {
         display: none;
