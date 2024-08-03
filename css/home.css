@@ -84,6 +84,7 @@ header nav .left a{
 }
 .product-sec .shopping-card{
     text-align: center;
+    margin-top: 4px;
     border: #ffcccc solid 2px;
     border-radius: 5%;
 
@@ -175,3 +176,104 @@ header nav .left a{
     color: white;
 }
 
+/* supper offer section */
+.supper-offer-sec{
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px;
+   
+
+}
+.supper-offer-sec .supper-offer-box{
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 29px;
+    margin-right: 29px;
+    border: #ffcccc solid 3px;
+    border-radius: 25px;
+
+}
+.supper-offer-box:hover{
+    box-shadow: 0px 2px 8px 0px rgb(0,0,0,0.5);
+}
+.supper-offer-box .title{
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+  
+
+}
+.supper-offer-box .body{
+
+}
+.supper-offer-box .body .img-container{ 
+    right: 10px;
+
+}
+.supper-offer-box .body .img-container img{ 
+   width: 100%;
+   margin-right: 10px;
+   margin-top: 5px;
+  
+}
+
+.supper-offer-box .body .specification{
+    margin: 40px;
+
+}
+
+.supper-offer-box .body .specification .price-row{
+   display: flex;
+   justify-content: space-between;
+   font-size: 1.5em;
+   color: #444;
+}
+.price-row .sale{
+
+}
+.price-row .price{
+    right: 40px;
+
+}
+.supper-offer-box .body .specification .product-title{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 1.3em;
+
+}
+.supper-offer-box .body .specification .counter-down{
+    border-top: 1px solid #444;
+    padding: 0px 20px;
+    position: absolute;
+    top: 57%;
+    font-size: 1.3em;
+    left: 28%;
+    color: #5f5f5f;
+}
+.counter-down span{
+
+}
+.supper-offer-box .body .specification .remindering-time{
+    position: absolute;
+    top: 67%;
+    left: 26% ;
+    color: #8c8c8c;
+
+}
+
+.supper-offer-sec .baner{
+    @media (max-width:1195px) {
+        display: none;
+    }
+}
+.baner img{
+    width: 100%;
+    border-radius: 25px;
+
+}
