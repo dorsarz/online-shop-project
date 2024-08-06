@@ -82,14 +82,14 @@ header nav .left a{
     padding: 20px 10px;
 
 }
-.product-sec .shopping-card{
+.shopping-card{
     text-align: center;
     margin-top: 4px;
     border: #ffcccc solid 2px;
     border-radius: 5%;
 
 }
-.product-sec .shopping-card:hover{
+.shopping-card:hover{
     box-shadow: 0px 2px 8px 0px rgb(0,0,0,0.5) ;
     border-radius: 5%;
 
@@ -261,4 +261,22 @@ header nav .left a{
     width: 100%;
     border-radius: 25px;
 
+}
+.pullable-list img{
+    width: 70% !important;
+    margin: auto;
+}
+.pullable-list .title-part{
+    border-bottom: solid #9f9e9e;
+    padding: 5px;
+    font-size: 1.2em;
+  
+    color: #5e5d5d;
+}
+.pullable-list .item{
+    margin: 15px;
+   
+}
+.owl-stage-outer{
+    direction: ltr;
 }
